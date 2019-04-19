@@ -8,5 +8,10 @@ Rails.application.routes.draw do
 
     get "/examples" => "examples#index"
 
+
+    get "/names" => "names#index"
+    get "/examples" => "examples#index"
+    get "/tests" => "tests#index"
+
   end
 end
