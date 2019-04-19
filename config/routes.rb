@@ -9,8 +9,6 @@ Rails.application.routes.draw do
 
     get "/examples" => "examples#index"
 
-
->>>>>>> e2675fe188d1ea2fb762498fbd179096952de9b0
     get "/names" => "names#index"
     get "/examples" => "examples#index"
     get "/tests" => "tests#index"
