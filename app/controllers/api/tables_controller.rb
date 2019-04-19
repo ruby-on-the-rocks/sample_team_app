@@ -1,3 +1,5 @@
 class Api::TablesController < ApplicationController
-  render json: { message: "justin" }
+  def index
+    render json: { message: "justin" }
+  end
 end
