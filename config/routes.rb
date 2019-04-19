@@ -4,11 +4,22 @@ Rails.application.routes.draw do
     get "/pages" => "pages#index"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     get "/sweet" => "sweet#index"
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> 980d5b188d9a2a47fe8722af5b3b0cf02d94943f
+=======
+
+    get "/tables" => "tables#index"
+
+    get "/names" => "names#index"
+
+    get "/examples" => "examples#index"
+
+
+>>>>>>> e2675fe188d1ea2fb762498fbd179096952de9b0
     get "/names" => "names#index"
     get "/examples" => "examples#index"
 <<<<<<< HEAD
@@ -16,6 +27,10 @@ Rails.application.routes.draw do
 >>>>>>> 932d4441929c51960989341264ef2d7dfd245a25
 =======
     get "/tests" => "tests#index"
+<<<<<<< HEAD
 >>>>>>> 980d5b188d9a2a47fe8722af5b3b0cf02d94943f
+=======
+
+>>>>>>> e2675fe188d1ea2fb762498fbd179096952de9b0
   end
 end
